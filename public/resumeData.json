@@ -1,0 +1,146 @@
+{
+  "main": {
+    "name": "Worakamol Boonpriphan",
+    "description": "I'm an Electrical Engineer captivated by Embedded System Development. With six years of experience, I love embracing new tech challenges. Additionally, I'm passionate about software development for eco-friendly solutions. Let's create a greener future together!",
+    "image": "xxx.jpg",
+    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "contactmessage": "Please feel free to contact me via my email or LinkedIn",
+    "email": "worakamol.rb@gmail.com",
+    "LinkedIn": "http://linkedin.com/in/worakamol-boonpriphan-b1898320a",
+    "phone": "086-516-7632",
+    "address": {
+      "street": "Bangkruai - Sainoi Rd.",
+      "city": "Nonthaburi City",
+      "state": "Nonthaburi",
+      "zip": "11000"
+    },
+    "resumedownload": "xxx.pdf",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "http://linkedin.com/in/worakamol-boonpriphan-b1898320a",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/w.b.gallery?igshid=NGExMmI2YTkyZg==",
+        "className": "fa fa-instagram"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "Kasetsart University",
+        "degree": "Bechelore's degree of Electrical Engineering'",
+        "graduated": "2016",
+        "description": "I had been joined in Committee of the Engineering Faculty's Student Association for the Academic Year 2014. I graduated from Electrical Engineering with first class honors in 2016."
+      }
+    ],
+    "course": [
+      {
+        "platform": "Udemy",
+        "name": "Active Listening"
+      },
+      {
+        "platform": "Udemy",
+        "name": "Difficult of Conversation"
+      },
+      {
+        "platform": "Udemy",
+        "name": "Diagnostic stack in AUTOSAR"
+      }
+    ],
+    "work": [
+      {
+        "company": "ThaiGerTec Co., Ltd. a member of KPIT",
+        "title": "Technical Lead",
+        "years": "April 2023 - Present",
+        "description": ["Analyse the requirement and implement based on AUTOSARstandard",
+        "Support team in COM and DIAG stack."]
+      },
+      {
+        "company": "ThaiGerTec Co., Ltd. a member of KPIT",
+        "title": "Senior Software Engineer ",
+        "years": "January 2022 - March 2023",
+        "description": [
+          "Studied the AUTOSAR standard in COMMUNICATION and DIAGNOSTIC stack to discussed with team",
+"Develop some simple features as per the requirement by using Davinci Tools"
+        ]
+      },
+      {
+        "company": "Silicon Craft Technology Company",
+        "title": "Senior Embedded System Engineer",
+        "years": "March 2019 - December 2021",
+        "description": [
+          "Analysed the requirement to develop the hardware/softwareprototype",
+        "Expolred in a new fields of NFC technology and made a report",
+        "Support customer on both software and hardware issue"]
+      },
+      {
+        "company": "Silicon Craft Technology Company",
+        "title": "Junior Embedded System Engineer",
+        "years": "August 2016 - March 2019",
+        "description": [
+          "Implemented code based on the existing hardware due to therequirement",
+"Prepared test reports on each project to team.",
+"Designed some of simple hardware to be prototype."
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "level": "50%"
+      },
+      {
+        "name": "C#",
+        "level": "60%"
+      },
+      {
+        "name": "C",
+        "level": "80%"
+      },
+      {
+        "name": "Embedded C",
+        "level": "80%"
+      },
+      {
+        "name": "Swift",
+        "level": "30%"
+      },
+      {
+        "name": "Agile Development Methodologies",
+        "level": "50%"
+      },
+      {
+        "name": "Git",
+        "Level": "80%"
+      },
+      {
+        "name": "SVN",
+        "Level": "80%"
+      }
+    ]
+  },
+  "activity":{
+    "activities": [
+      {
+        "title":"Krubannok 218th",
+        "category":"A volunteer to be a teacher in Changrai",
+        "image":"01.jpg"
+      },
+      {
+        "title": "Volunteer Doctor Project",
+        "category": "To be an assistor of doctors and nurses at Boaong Village in Kanchanaburi Province",
+        "image": "02.jpg"
+      },
+      {
+        "title":"WhyTrave Page",
+        "category":"Photo blogger",
+        "image":"03.jpg",
+        "url":""
+      }
+    ]
+  }
+}
