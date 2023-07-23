@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import $ from "jquery";
 import "./App.css";
 import Header from "./Components/Header";
@@ -20,8 +19,8 @@ class App extends Component {
 
   getResumeData() {
     $.ajax({
-      url: "./Worakamol_Resume.pdf",
-      dataType: "pdf",
+      url: "./resumeData.json",
+      dataType: "json",
       cache: false,
       success: function(data) {
         this.setState({ resumeData: data });
