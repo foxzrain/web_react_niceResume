@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+import '../css/layout.css';
+import '../css/media-queries.css';
 
 class Footer extends Component {
   render() {

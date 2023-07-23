@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Zmage from "react-zmage";
 import Fade from "react-reveal";
+import '../css/layout.css';
+import '../css/media-queries.css';
 
 let id = 0;
 class Activity extends Component {

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
+import '../css/layout.css';
+import '../css/media-queries.css';
 
 class Resume extends Component {
   render() {

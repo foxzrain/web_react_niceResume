@@ -1,1 +1,5 @@
-{}
+{
+  "projects": {
+    "default": "wb-portfolio-b2c69"
+  }
+}

@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import $ from "jquery";
 import "./App.css";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import About from "./Components/About";
-import Resume from "./Components/Resume";
-import Skill from "./Components/Skill";
-import Portfolio from "./Components/Portfolio";
-import Activity from "./Components/Activity";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import About from "./components/About";
+import Resume from "./components/Resume";
+import Skill from "./components/Skill";
+import Portfolio from "./components/Portfolio";
+import Activity from "./components/Activity";
 
 class App extends Component {
   constructor(props) {

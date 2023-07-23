@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+import '../css/layout.css';
+import '../css/media-queries.css';
 
 class About extends Component {
   render() {
@@ -62,7 +64,7 @@ class About extends Component {
                 
                 <div className="columns download">
                   <p>
-                    <a href={require("../src/Worakamol_Resume.pdf")}  target='_blank' className="button">
+                    <a href={require("../files/Worakamol_Resume.pdf")}  target='_blank' rel="noreferrer" className="button">
                       <i className="fa fa-download"></i>Download Resume
                     </a>
                   </p>

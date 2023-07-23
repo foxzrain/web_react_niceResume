@@ -1,6 +1,9 @@
 import React, { Component } from "react";
+import { Link } from "react-scroll";
+import '../css/layout.css';
+import '../css/media-queries.css';
 
-class Header extends Component {
+class Header extends Component {  
   render() {
     if (!this.props.data) return null;
 
@@ -10,39 +13,39 @@ class Header extends Component {
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
           </a>
-          <a className="mobile-btn" href="#home" title="Hide navigation">
+          <a className="mobile-btn" href="#about" title="Hide navigation">
             Hide navigation
           </a>
 
           <ul id="nav" className="nav">
             <li>
-              <a className="smoothscroll" href="#about">
+              <Link activeClass="active" smooth spy to="about" duration={500} offset={-70}>
                 About
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#resume">
+              <Link activeClass="active" smooth spy to="resume" duration={500} offset={-70}>
                 Education & Works
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#skill">
+              <Link activeClass="active" smooth spy to="skill" duration={500} offset={-70}>
                 Skills
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#portfolio">
+              <Link activeClass="active" smooth spy to="portfolio" duration={500} offset={-70}>
                 Portfolio
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#activity">
+              <Link activeClass="active" smooth spy to="activity" duration={500} offset={-70}>
                 Activities
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
