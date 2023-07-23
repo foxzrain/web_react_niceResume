@@ -118,11 +118,27 @@
       },
       {
         "name": "Git",
-        "Level": "80%"
+        "level": "80%"
       },
       {
         "name": "SVN",
-        "Level": "80%"
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "portfolioes": [
+      {
+        "name": "NFC Connect Application",
+        "link": "https://www.youtube.com/watch?v=KYygMaHrZOY"
+      },
+      {
+        "name": "Action figure",
+        "link": "https://www.youtube.com/watch?v=-q7sew8rlxg"
+      },
+      {
+        "name": "Light Timer Control",
+        "link": "https://www.youtube.com/watch?v=56u1i3fgygI&list=PLNVMfhpfdARu6Ef2nM8FCofKmlA08uLL4&index=25"
       }
     ]
   },

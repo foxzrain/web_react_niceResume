@@ -14,7 +14,7 @@ class Activity extends Component {
         <div key={id++} className="columns activity-item">
           <div className="item-wrap">
             <Zmage alt={activities.title} src={activityImage} />
-            <div style={{ textAlign: "center" }}>{activities.title}</div>
+            <div style={{ textAlign: "center", color: "#fff" }}>{activities.title}</div>
           </div>
         </div>
       );

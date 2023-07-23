@@ -7,6 +7,7 @@ import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Skill from "./Components/Skill";
+import Portfolio from "./Components/Portfolio";
 import Activity from "./Components/Activity";
 
 class App extends Component {
@@ -19,7 +20,7 @@ class App extends Component {
 
   getResumeData() {
     $.ajax({
-      url: "./resumeData.json",
+      url: "./Worakamol_Resume.pdf",
       dataType: "json",
       cache: false,
       success: function(data) {
@@ -43,6 +44,7 @@ class App extends Component {
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
         <Skill data={this.state.resumeData.resume} />
+        <Portfolio data={this.state.resumeData.portfolio} />
         <Activity data={this.state.resumeData.activity} />
         <Footer data={this.state.resumeData.main} />
       </div>
