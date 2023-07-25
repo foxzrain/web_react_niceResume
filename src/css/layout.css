@@ -537,7 +537,9 @@ ul#nav li a.active { color: #9ACD32; font-size: medium;}
 
 /* Portfolio Content */
 #activity-wrapper .columns { margin-bottom: 36px; }
-
+.activity-item .item-wrap img {
+   height: 145px;
+}
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
 

@@ -2,8 +2,8 @@
   "main": {
     "name": "Worakamol Boonpriphan",
     "description": "I'm an Electrical Engineer captivated by Embedded System Development. With six years of experience, I love embracing new tech challenges. Additionally, I'm passionate about software development for eco-friendly solutions. Let's create a greener future together!",
-    "image": "xxx.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "image": "profile.png",
+    "bio": "I'm an Electrical Engineer captivated by Embedded System Development. With six years of experience, I love embracing new tech challenges. Additionally, I'm passionate about software development for eco-friendly solutions. Let's create a greener future together!",
     "contactmessage": "Please feel free to contact me via my email or LinkedIn",
     "email": "worakamol.rb@gmail.com",
     "LinkedIn": "http://linkedin.com/in/worakamol-boonpriphan-b1898320a",
@@ -14,7 +14,7 @@
       "state": "Nonthaburi",
       "zip": "11000"
     },
-    "resumedownload": "xxx.pdf",
+    "resumedownload": "Worakamol_Resume.pdf",
     "social": [
       {
         "name": "linkedin",
@@ -147,18 +147,32 @@
       {
         "title":"Krubannok 218th",
         "category":"A volunteer to be a teacher in Changrai",
-        "image":"01.jpg"
+        "image":"t0.jpg",
+        "set": [
+          {"src": "./assets/images/t1.png"},
+          {"src": "./assets/images/t2.png"},
+          {"src": "./assets/images/t3.png"}
+        ]
       },
       {
         "title": "Volunteer Doctor Project",
         "category": "To be an assistor of doctors and nurses at Boaong Village in Kanchanaburi Province",
-        "image": "02.jpg"
+        "image": "d0.jpg",
+        "set": [
+          {"src": "./assets/images/d1.png"},
+          {"src": "./assets/images/d2.png"},
+          {"src": "./assets/images/d3.png"}
+        ]
       },
       {
         "title":"WhyTrave Page",
         "category":"Photo blogger",
-        "image":"03.jpg",
-        "url":""
+        "image":"w0.jpg",
+        "set": [
+          {"src": "./assets/images/w2.png"},
+          {"src": "./assets/images/w3.png"},
+          {"src": "./assets/images/w4.png"}
+        ]
       }
     ]
   }

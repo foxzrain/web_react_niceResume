@@ -10,12 +10,13 @@ class Activity extends Component {
     if (!this.props.data) return null;
 
     const activities = this.props.data.activities.map(function (activities) {
-      let activityImage = "images/activity/" + activities.image;
+      let activityImage = "./assets/images/" + activities.image;
+      console.log(activityImage);
 
       return (
         <div key={id++} className="columns activity-item">
           <div className="item-wrap">
-            <Zmage alt={activities.title} src={activityImage} />
+            <Zmage alt={activities.title} src={activityImage} set={activities.set}/>
             <div style={{ textAlign: "center", color: "#fff" }}>{activities.title}</div>
           </div>
         </div>
