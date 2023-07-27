@@ -3,13 +3,14 @@ import Slide from "react-reveal";
 import '../css/layout.css';
 import '../css/media-queries.css';
 
+let number = 0;
 class Resume extends Component {
   render() {
     if (!this.props.data) return null;
     
-    const education = this.props.data.education.map(function (education) {
+    const education = this.props.data.education.map(function (education, index) {
       return (
-        <div key={education.school}>
+        <div key={education.school + index}>
           <h3>{education.school}</h3>
           <p className="info">
             {education.degree} <span>&bull;</span>
@@ -20,9 +21,9 @@ class Resume extends Component {
       );
     });
 
-    const work = this.props.data.work.map(function (work) {
+    const work = this.props.data.work.map(function (work, index) {
       return (
-        <div key={work.company}>
+        <div key={work.company + index}>
           <h3>{work.company}</h3>
           <p className="info">
             {work.title}
@@ -30,7 +31,7 @@ class Resume extends Component {
           </p>
           <div>{work.description.map(function (des) {
             return (
-              <li>{des}</li>
+              <li key={des}>{des}</li>
             );
           })}</div>
         </div>

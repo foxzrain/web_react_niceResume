@@ -11,7 +11,6 @@ class Activity extends Component {
 
     const activities = this.props.data.activities.map(function (activities) {
       let activityImage = "./assets/images/" + activities.image;
-      console.log(activityImage);
 
       return (
         <div key={id++} className="columns activity-item">
