@@ -539,6 +539,7 @@ ul#nav li a.active { color: #9ACD32; font-size: medium;}
 #activity-wrapper .columns { margin-bottom: 36px; }
 .activity-item .item-wrap img {
    height: 145px;
+   width: 100%;
 }
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
